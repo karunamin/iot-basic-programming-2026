@@ -11,7 +11,7 @@ int main(void) {
 	scanf("%d %lf", &weight, &height);
 
 	bmi = weight / ((height / 100) * (height / 100));
-	printf("%s\n", (bmi >= 20 || bmi < 25) ? "표준입니다." : "체중관리가 필요합니다.");
+	printf("%s\n", (bmi >= 20 && bmi < 25) ? "표준입니다." : "체중관리가 필요합니다.");
 
 	return 0;
 }
