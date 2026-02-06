@@ -20,6 +20,7 @@ int main(void) {
 
 	//printf("입력 후 문자열 : %s\n", str);
 
+		
 	strcpy(str, "grape");
 	printf("입력 후 문자열 : %s\n", str);
 
