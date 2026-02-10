@@ -1,4 +1,4 @@
-﻿﻿// 문자열과 포인터, 문자열 함수
+﻿// 문자열과 포인터, 문자열 함수
 // strcpy, strcat, strlen, strcmp
 #define _CRT_SECURE_NO_WARNINGS
 
@@ -55,7 +55,7 @@ int main(void) {
 	strncat(str4, "piece", 3);  // str4 배열에 piece중 세글자 pie만 결합
 	printf("바뀐 문자열 %s\n", str4);
 
-#pragma engregion 
+#pragma endregion 
 
 #pragma region strlen() 함수
 
