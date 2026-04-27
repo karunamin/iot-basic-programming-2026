@@ -22,7 +22,7 @@
 #define MEMO_LEN	   31
 
 #pragma endregion
-
+;
 typedef struct _contact {
 	char name[NAME_LEN];
 	char phone[PHONE_LEN];

@@ -1,4 +1,4 @@
-﻿﻿// 주소록 프로그램 step 8
+﻿// 주소록 프로그램 step 8
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdlib.h>
@@ -24,7 +24,7 @@ int main(void) {
 		return 1;   // main함수의 1과 사용자 함수들의 return 1의 차이 비교이해할 것!
 	}
 
-	load_contacts("contacts.txt"); // 프로그램 실행 후 데이터 로드!
+	load_contacts("contact.txt"); // 프로그램 실행 후 데이터 로드!
 
 	while (1) { // 무한루프 :
 		clear_screen();
@@ -62,7 +62,7 @@ int main(void) {
 			break;
 
 		case 7:
-			save_contacts("contacts.txt");  // 종료직전 현재 데이터 저장
+			save_contacts("contact.txt");  // 종료직전 현재 데이터 저장
 			ab_free();  // 반드시 메모리 해제
 			puts("프로그램 종료");
 			return 0;
